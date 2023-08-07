@@ -9,7 +9,8 @@ on:
 env:
   BUILD_TYPE: Release
   wxBUILD_SHARED: OFF
-  wxBUILD_USE_STATIC_RUNTIME: ON 
+  wxBUILD_USE_STATIC_RUNTIME: ON
+  CXXFLAGS: -D__DP_DECODE_ONLY__=1
 
 jobs:
   build-win32-msvc2019:
