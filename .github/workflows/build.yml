@@ -66,7 +66,7 @@ jobs:
 
   build-macos1015-universal:
     
-    runs-on: macos-10.15
+    runs-on: macos-11
 
     steps:
     - uses: actions/checkout@v3
