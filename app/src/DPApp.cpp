@@ -1,6 +1,7 @@
 #include <wx/stdpaths.h>
 #include <patcher/XDeltaPatch.h>
 #include <wx/filename.h>
+#include <wx/uilocale.h>
 #include <DPApp.h>
 #include <gui/DeltaPatcherMainDialog.h>
 
@@ -37,6 +38,20 @@ bool DPApp::OnInit(){
 		locale.AddCatalog(wxT("deltapatcher"));
 	}
 */
+	const wxLanguageInfo* const langInfo = wxUILocale::GetLanguageInfo(wxLANGUAGE_DEFAULT);
+	const wxString langDesc = langInfo ? langInfo->Description : wxT("the default system language");
+	if (!wxUILocale::UseDefault()) {
+		wxLogWarning(wxT("Failed to initialize the default system locale."));
+	}
+
+	wxFileTranslationsLoader::AddCatalogLookupPathPrefix(wxT("locale"));
+	wxTranslations* const trans = new wxTranslations();
+	wxTranslations::Set(trans);
+
+	if (!trans->AddCatalog(wxT("deltapatcher"))) {
+		wxLogError(wxT("Couldn't find/load 'deltapatcher' catalog for %s."), langDesc);
+	}
+
 	DeltaPatcherMainDialog* dialog=new DeltaPatcherMainDialog(NULL,patchName);
 	
 	SetTopWindow(dialog);
