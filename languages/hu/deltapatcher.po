@@ -1,0 +1,320 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Delta Patcher 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-07 19:16+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mátyás Mustoha\n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: app/src/gui/DeltaPatcherDecodePanel.cpp:28
+msgid "Backup original file"
+msgstr "Biztonsági másolat az eredeti fájlról"
+
+#: app/src/gui/DeltaPatcherDecodePanel.cpp:31
+msgid "Checksum validation"
+msgstr "Ellenőrzőösszeg validálása"
+
+#: app/src/gui/DeltaPatcherDecodePanel.cpp:57
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:135
+msgid "xdelta patches (*.xdelta)|*.xdelta"
+msgstr "xdelta patch (*.xdelta)|*.xdelta"
+
+#: app/src/gui/DeltaPatcherDecodePanel.cpp:72
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:150
+msgid "Fill all the textboxes first!"
+msgstr "Előbb töltsd ki a mezőket!"
+
+#: app/src/gui/DeltaPatcherDecodePanel.cpp:72
+#: app/src/gui/DeltaPatcherDecodePanel.cpp:185
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:150
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:282
+msgid "Warning"
+msgstr "Vigyázz!"
+
+#: app/src/gui/DeltaPatcherDecodePanel.cpp:95
+msgid "Applying patch, please wait... (don't panic!)"
+msgstr "Patch alkalmazása folyamatban... (türelem!)"
+
+#: app/src/gui/DeltaPatcherDecodePanel.cpp:121
+#, c-format
+msgid "Patch file \"%s\" selected"
+msgstr "Patch fájl \"%s\" kiválasztva"
+
+#: app/src/gui/DeltaPatcherDecodePanel.cpp:127
+#, c-format
+msgid ""
+", description found:\n"
+"\n"
+"%s\n"
+msgstr ""
+", leírás:\n"
+"\n"
+"%s\n"
+
+#: app/src/gui/DeltaPatcherDecodePanel.cpp:140
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:204
+#, c-format
+msgid "Original file \"%s\" selected."
+msgstr "Eredeti fájl \"%s\" kiválasztva."
+
+#: app/src/gui/DeltaPatcherDecodePanel.cpp:164
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:261
+msgid "Could not create the worker thread!"
+msgstr "Nem sikerült szálat létrehozni!"
+
+#: app/src/gui/DeltaPatcherDecodePanel.cpp:171
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:268
+msgid "Could not RUN the worker thread!"
+msgstr "Nem sikerült szálat elindítani!"
+
+#: app/src/gui/DeltaPatcherDecodePanel.cpp:185
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:282
+msgid ""
+"An error has occurred!\n"
+"See log for more information."
+msgstr ""
+"Hiba történt!\n"
+"A futásnaplóban találod a részleteket."
+
+#: app/src/gui/DeltaPatcherDecodePanel.cpp:191
+#: app/src/gui/DeltaPatcherDecodePanel.cpp:192
+msgid "Patch successfully applied!"
+msgstr "Patch sikeresen alkalmazva!"
+
+#: app/src/gui/DeltaPatcherDecodePanel.cpp:192
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:285
+msgid "Notice"
+msgstr "Megjegyzés"
+
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:69
+msgid "Main compression level"
+msgstr "Elsődleges tömörítés szintje"
+
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:79
+msgid "Secondary compression"
+msgstr "Másodlagos tömörítés"
+
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:91
+msgid "Src Window Size"
+msgstr "Forrás blokkméret"
+
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:93
+msgid "Add Checksum to patch"
+msgstr "Ellenőrzőösszeg mellékelése"
+
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:168
+msgid "Creating patch, please wait... (don't panic!)"
+msgstr "Patchkészítés folyamatban... (türelem!)"
+
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:192
+#, c-format
+msgid "Patch file \"%s\" selected."
+msgstr "Patch fájl \"%s\" kiválasztva."
+
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:216
+#, c-format
+msgid "Modified file \"%s\" selected."
+msgstr "Módosított fájl \"%s\" kiválasztva."
+
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:284
+#: app/src/gui/DeltaPatcherEncodePanel.cpp:285
+msgid "Patch successfully created!"
+msgstr "A patch sikeresen elkészült!"
+
+#: app/src/gui/DeltaPatcherMainDialog.cpp:38
+msgid "Delta Patcher Lite"
+msgstr "Delta Patcher Lite"
+
+#: app/src/gui/DeltaPatcherMainDialog.cpp:40
+msgid "Delta Patcher"
+msgstr "Delta Patcher"
+
+#: app/src/gui/DeltaPatcherMainDialog.cpp:83
+msgid "Show log >>"
+msgstr "Napló megjelenítése >>"
+
+#: app/src/gui/DeltaPatcherMainDialog.cpp:88
+msgid "<< Hide log"
+msgstr "<< Napló elrejtése"
+
+#: app/src/gui/DeltaPatcherMainDialog.cpp:133
+#, c-format
+msgid "[%s] An error has occurred: %s\n"
+msgstr "[%s] Hiba történt: %s\n"
+
+#: app/src/gui/dpgui.cpp:43
+msgid "Shows information about this program."
+msgstr "Információk a programról."
+
+#: app/src/gui/dpgui.cpp:54
+msgid "Switches between patch creation and patch application modes."
+msgstr "Átváltás a patchkészítő és -alkalmazó mód között."
+
+#: app/src/gui/dpgui.cpp:59
+msgid "Hides/Shows the log window."
+msgstr "Folyamatnapló elrejtése/megjelenítése."
+
+#: app/src/gui/dpgui.cpp:72
+msgid "Log:"
+msgstr "Folyamatnapló:"
+
+#: app/src/gui/dpgui.cpp:103 app/src/gui/dpgui.cpp:172
+msgid "Original file:"
+msgstr "Eredeti fájl:"
+
+#: app/src/gui/dpgui.cpp:110
+msgid "Choose the file to patched."
+msgstr "Válaszd ki a fájlt, amire szeretnéd alkalmazni a patchet."
+
+#: app/src/gui/dpgui.cpp:118 app/src/gui/dpgui.cpp:202
+msgid "XDelta patch:"
+msgstr "Xdelta patch:"
+
+#: app/src/gui/dpgui.cpp:125
+msgid "Choose the patch to be applied to the selected file."
+msgstr "Válaszd ki a patchet, amit szeretnél alkalmazni a fenti fájlra."
+
+#: app/src/gui/dpgui.cpp:135
+msgid "Apply patch"
+msgstr "Patch alkalmazása"
+
+#: app/src/gui/dpgui.cpp:137
+msgid "Applies the selected patch to the given file."
+msgstr "A megadott patch alkalmazása a választott fájlra."
+
+#: app/src/gui/dpgui.cpp:142
+msgid "Changes settings for patch application."
+msgstr "Patchelés beállítások módosítása."
+
+#: app/src/gui/dpgui.cpp:179
+msgid "Choose the original (untouched) file."
+msgstr "Válaszd ki az eredeti, módosítások nélküli fájlt."
+
+#: app/src/gui/dpgui.cpp:187
+msgid "Modified file:"
+msgstr "Módosított fájl:"
+
+#: app/src/gui/dpgui.cpp:194
+msgid "Choose the modified file."
+msgstr "Válaszd ki a módosított fájlt."
+
+#: app/src/gui/dpgui.cpp:209
+msgid ""
+"Choose where to save the patch containing the differences between the "
+"original and the modified file."
+msgstr ""
+"Válaszd ki, hova szeretnéd menteni a patch fájlt, ami az eredeti és a "
+"módosított közötti eltérést fogja tárolni."
+
+#: app/src/gui/dpgui.cpp:217
+msgid "Description (optional):"
+msgstr "Leírás (elhagyható):"
+
+#: app/src/gui/dpgui.cpp:228
+msgid "Create patch"
+msgstr "Patchkészítés"
+
+#: app/src/gui/dpgui.cpp:230
+msgid ""
+"Creates a patch containing the differences between the original and the "
+"modified file."
+msgstr ""
+"Létrehoz egy patch fájlt, ami az eredeti és a módosított közötti "
+"eltérést tárolja."
+
+#: app/src/gui/dpgui.cpp:235
+msgid "Changes settings for patch creation."
+msgstr "Létrehozási beállítások módosítása."
+
+#: app/src/gui/dpgui.cpp:302
+msgid "http://github.com/marco-calautti"
+msgstr "http://github.com/marco-calautti"
+
+#: app/src/gui/dpgui.cpp:322
+msgid "About"
+msgstr "Névjegy"
+
+#: app/src/gui/dpgui.cpp:334
+msgid "License"
+msgstr "Licenc"
+
+#: app/src/gui/dpgui.cpp:341
+msgid "OK"
+msgstr "Rendben"
+
+#~ msgid "Apply xdelta patch"
+#~ msgstr "xdelta patch alkalmazása"
+
+#~ msgid "Create xdelta patch"
+#~ msgstr "xdelta patch létrehozás"
+
+#~ msgid "Operations:"
+#~ msgstr "Műveletek:"
+
+#~ msgid "Associate to xdelta files"
+#~ msgstr "Társítás xdelta fájlokhoz"
+
+#~ msgid "Exit"
+#~ msgstr "Kilépés"
+
+#~ msgid "Open..."
+#~ msgstr "Megnyitás..."
+
+#~ msgid "Options:"
+#~ msgstr "Beállítások:"
+
+#~ msgid "Save..."
+#~ msgstr "Mentés..."
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "About Delta Patcher"
+#~ msgstr "A programról"
+
+#~ msgid ""
+#~ "This program is free software: you can redistribute it\n"
+#~ "and/or modify it under the terms of the GNU General\n"
+#~ "Public License as published by the Free Software Foundation,\n"
+#~ "version 2.0."
+#~ msgstr ""
+#~ "Ez a program szabad szoftver; továbbadhatod és/vagy\n"
+#~ "módosíthatod a Free Software Foundation által kiadott\n"
+#~ "GNU General Public License 2. változatában foglaltak\n"
+#~ "betartásával."
